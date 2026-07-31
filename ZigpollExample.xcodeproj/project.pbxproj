@@ -221,7 +221,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/zigpoll/zigpoll-ios";
 			requirement = {
-				branch = main;
+				branch = master;
 				kind = branch;
 			};
 		};
