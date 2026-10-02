@@ -13,7 +13,7 @@ import Zigpoll
 @main
 struct ZigpollExampleApp: App {
     init() {
-        Zigpoll.configure(accountId: "YOUR_ACCOUNT_ID", preview: true)
+        Zigpoll.configure(accountId: "5ca26e2cbd129162f0ca3ed2", preview: true)
 
         /* Optional: associate responses with your app user. */
         Zigpoll.identify(id: "example-user-1", metadata: ["email": "user@example.com"])
@@ -36,7 +36,7 @@ struct ContentView: View {
         VStack(spacing: 20) {
             Text("Zigpoll SDK Example").font(.title2)
             Button("Trigger survey") {
-                Zigpoll.trigger(pollId: "YOUR_SURVEY_ID")
+                Zigpoll.trigger(pollId: "6a846fb17cab765fd46e6683")
             }
             Button("Dismiss") {
                 Zigpoll.dismiss()
